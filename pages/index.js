@@ -20,7 +20,10 @@ export default function Home() {
         <p className="description">
           Me, Myself, and I are good friends!
         </p>
-      
+        <Header title="Photos:" />
+        <p className="description">
+          <img src="minion.jpg" width="400" height="200"/>
+        </p>
       </main>
 
        <Footer />
