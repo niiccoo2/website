@@ -11,13 +11,19 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="Welcome to Nicos app!" />
+        <Header title="Links:" />
         <p className="description">
-          Nicos website is cool!
+          Github: <a href="https://github.com/niiccoo2/" target="_blank">github.com/niiccoo2</a>
+          <br></br>
         </p>
+        <Header title="About:" />
+        <p className="description">
+          Me, Myself, and I are good friends!
+        </p>
+      
       </main>
 
-      <Footer />
+       <Footer />
     </div>
   )
 }
