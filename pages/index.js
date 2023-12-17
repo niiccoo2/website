@@ -32,10 +32,9 @@ export default function Home() {
           <br />
         </p>
         <Header title="Projects:" />
-        <p className="description">
+        <p style={{ textAlign: 'center' }}>
+          <a href="storys">Storys</a><br></br>
           <a href="ndx">NDX</a><br></br>
-          <a href="storys">Scary Storys</a><br></br>
-          
         </p>
         <Header title="About:" />
         <p className="description">
@@ -43,7 +42,7 @@ export default function Home() {
         </p>
         <Header title="Photos:" />
         <p className="description">
-          <img src="redsox.jpg" width="400" height="266"/>
+          <img src="photo.JPG" width="400" height="266"/>
         </p>
         
         

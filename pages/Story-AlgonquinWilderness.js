@@ -27,6 +27,9 @@ export default function Home() {
 
       <main style={styles.main}>
         <Header title="A Night in the Algonquin Wilderness" />
+        <p style={{ textAlign: 'center' }}>
+          By: Dylan Oalmann
+        </p>
         <p className="description">
           The chill wind cut through the dense forest, and the moon cast an eerie glow upon the towering pines. Four friends, Ross, Rusty, Pip, and I, embarked on a camping trip deep into the heart of the Algonquin wilderness. Excitement buzzed in the air as we set up our campsite, oblivious to the ancient secrets that the forest held.
         </p>

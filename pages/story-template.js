@@ -27,6 +27,9 @@ export default function Home() {
 
       <main style={styles.main}>
         <Header title="Story Template" />
+        <p style={{ textAlign: 'center' }}>
+          By: Author Author
+        </p>
         <p className="description">
           Story Template
         </p>

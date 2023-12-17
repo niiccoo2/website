@@ -21,23 +21,23 @@ export default function Home() {
   return (
     <div className="container" style={styles.container}>
       <Head>
-        <title>Scary Storys</title>
+        <title>Storys</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main style={styles.main}>
-        <Header title="Scary Storys" />
+        <Header title="Storys" />
         <p className="description">
-          These are some short Scary Storys sorted by Author!
+          These are some short storys sorted by type!
         </p>
         <p>
           To contact the author of a story email <a href="mailto:contact@nic0.win">contact@nic0.win</a> with the subject as the title of the story that your message is about.
         </p>
-        <Header title="Dylan Oalman:" />
-        <p className="description">
-          <a href="Story-AlgonquinWilderness">A Night in the Algonquin Wilderness</a>
+        <Header title="Scary:" />
+        <p style={{ textAlign: 'center' }}>
+          <a href="Story-AlgonquinWilderness">A Night in the Algonquin Wilderness</a><br></br>
+          <a href="Story-Phantompeak">Phantompeak</a>
         </p>
-        
       </main>
 
        <Footer />
