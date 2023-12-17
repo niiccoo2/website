@@ -21,31 +21,15 @@ export default function Home() {
   return (
     <div className="container" style={styles.container}>
       <Head>
-        <title>Nicos Website!</title>
+        <title>NDX</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main style={styles.main}>
-        <Header title="Links:" />
+        <Header title="NDX" />
         <p className="description">
-          Github: <a href="https://github.com/niiccoo2/" target="_blank" rel="noopener noreferrer">github.com/niiccoo2</a>
-          <br />
+          Not done yet...
         </p>
-        <Header title="Projects:" />
-        <p className="description">
-          <a href="ndx">NDX</a><br></br>
-          <a href="storys">Scary Storys</a><br></br>
-          
-        </p>
-        <Header title="About:" />
-        <p className="description">
-          Me, Myself, and I are good friends!
-        </p>
-        <Header title="Photos:" />
-        <p className="description">
-          <img src="redsox.jpg" width="400" height="266"/>
-        </p>
-        
         
       </main>
 

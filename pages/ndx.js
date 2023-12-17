@@ -28,7 +28,9 @@ export default function Home() {
       <main style={styles.main}>
         <Header title="NDX" />
         <p className="description">
-          Github: <a href="https://github.com/niiccoo2/NDX/" target="_blank" rel="noopener noreferrer">github.com/niiccoo2/NDX</a><br></br>
+          <a href="https://nic0.win">Back</a><br></br>
+          
+          <br></br>Github: <a href="https://github.com/niiccoo2/NDX/" target="_blank" rel="noopener noreferrer">github.com/niiccoo2/NDX</a><br></br>
           
           <br></br>This is a simple tool with a softwere menu and basic softwere.<br></br>
 
