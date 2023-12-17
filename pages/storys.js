@@ -30,9 +30,12 @@ export default function Home() {
         <p className="description">
           These are some short Scary Storys sorted by Author!
         </p>
-        <Header title="Dylan Oalman" />
+        <p>
+          To contact the author of a story email <a href="mailto:contact@nic0.win">contact@nic0.win</a> with the subject as the title of the story that your message is about.
+        </p>
+        <Header title="Dylan Oalman:" />
         <p className="description">
-          <a href="ANightInAlgonquin">A Night in Algonquin</a>
+          <a href="Story-AlgonquinWilderness">A Night in the Algonquin Wilderness</a>
         </p>
         
       </main>

@@ -21,14 +21,14 @@ export default function Home() {
   return (
     <div className="container" style={styles.container}>
       <Head>
-        <title>NDX</title>
+        <title>Story Template</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main style={styles.main}>
-        <Header title="NDX" />
+        <Header title="Story Template" />
         <p className="description">
-          Not done yet...
+          Story Template
         </p>
         
       </main>
