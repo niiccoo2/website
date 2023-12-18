@@ -21,7 +21,7 @@ export default function Home() {
   return (
     <div className="container" style={styles.container}>
       <Head>
-        <title>Story Template</title>
+        <title>Phantompeak</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 

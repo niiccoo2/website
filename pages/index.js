@@ -34,6 +34,7 @@ export default function Home() {
         <Header title="Projects:" />
         <p style={{ textAlign: 'center' }}>
           <a href="storys">Storys</a><br></br>
+          <a href="better">Which is better?</a><br></br>
           <a href="ndx">NDX</a><br></br>
         </p>
         <Header title="About:" />
