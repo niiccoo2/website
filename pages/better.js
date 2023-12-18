@@ -26,9 +26,8 @@ export default function Home() {
       </Head>
 
       <main style={styles.main}>
-        <Header title="Which is better?" />
         <p className="description">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSnGzCLi2HTCmE6ziysPgjxkPK5ZBGf2TE5qbCquPXJP0WJA/viewform?embedded=true" width="640" height="700" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeSnGzCLi2HTCmE6ziysPgjxkPK5ZBGf2TE5qbCquPXJP0WJA/viewform?embedded=true" width="640" height="420" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
         </p>
 
       </main>
