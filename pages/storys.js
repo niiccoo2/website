@@ -37,6 +37,7 @@ export default function Home() {
         <p style={{ textAlign: 'center' }}>
           <a href="Story-AlgonquinWilderness">A Night in the Algonquin Wilderness</a><br></br>
           <a href="Story-Phantompeak">Phantompeak</a>
+          <a href="Story-SunnySideUpInsanity">Sunny Side Up Insanity</a>
         </p>
       </main>
 
