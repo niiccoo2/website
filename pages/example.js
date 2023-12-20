@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
 
+
 const styles = {
   container: {
     display: 'grid',
@@ -15,6 +16,10 @@ const styles = {
     paddingTop: '0px', // Adjust the top padding here
     paddingBottom: '50px',
   },
+  //td: {
+  //    text-align: 'center', 
+  //    vertical-align: 'middle',
+  //},
 };
 
 export default function Home() {
@@ -53,15 +58,17 @@ export default function Home() {
         </ol>
         <h2>This is a table:</h2>
         <table border="1">
-        <tr>
-        <th></th><th>USA</th><th>UK</th>
-        </tr>
-        <tr>
-        <th>Road Side</th><td>Right Side</td><td>Left Side</td>
-        </tr>
-        <tr>
-        <th>Units</th><td>MPH</td><td>KPH</td>
-        </tr>
+          <tbody>
+            <tr>
+            <th></th><th>USA</th><th>UK</th>
+            </tr>
+            <tr>
+            <th>Road Side</th><td>Right Side</td><td>Left Side</td>
+            </tr>
+            <tr>
+            <th>Units</th><td>MPH</td><td>KPH</td>
+            </tr>
+          </tbody>  
         </table>
 
       </main>
