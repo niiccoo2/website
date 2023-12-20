@@ -26,9 +26,8 @@ export default function Home() {
       </Head>
 
       <main style={styles.main}>
-        <Header title="Character Key:" />
-        <p>Protagonists/Main Characters:</p>
-        <Header title="Shelly Quintas" />
+        <Header title='Protagonists/Main Characters:' />
+        <h3>Shelly Quintas</h3>
         <p className="description">
           Green-eyed blonde with short, wildly cut hair. Incredibly insulting,
           always the first to point a flaw out. But don’t cast her out as
@@ -36,7 +35,7 @@ export default function Home() {
           to insult those who know her well. Wears ripped jeans, jean shorts,
           tank tops, and army green sweaters.
         </p>
-        <Header title="Skizz Zerby" />
+        <h3>Skizz Zerby</h3>
         <p>
           He got his odd nickname because he sizzles in the sun like an egg in a
           frying pan. His given name is Sivak. He can always find something to
@@ -44,7 +43,7 @@ export default function Home() {
           oversized pants and tight shirts, often with baggy or no-sleeve
           sweaters.
         </p>
-        <Header title="Graham Cracker (Cracker, Cracked, or S’mores)" />
+        <h3>Graham Cracker (Cracker, Cracked, or S’mores)</h3>
         <p>
           His name is Elliott Gordon Graham, and his nickname sums up him. He’s
           clumsy and loud, almost always messing things up, but for some reason,
@@ -53,7 +52,7 @@ export default function Home() {
           and leggings for some reason) and very oversized jackets, coats,
           sweaters, and shirts. He has an uncanny sense of time.
         </p>
-        <Header title="Canary Yuri" />
+        <h3>Canary Yuri</h3>
         <p>
           The most normal out of the group. He’s a bit quiet, and he doesn’t
           socialize much. He’s passionate and intelligent, always pointing out
@@ -61,17 +60,17 @@ export default function Home() {
           with teachers more. He wears a wide variation of clothing, but almost
           always wears a sweater.
         </p>
-        <p>Deuteragonists(Doo-tr-a-guh-nuhst)/Side Characters:</p>
-        <Header title="Maxwell Mejia" />
+        <Header title="Side Characters:" />
+        <h3>Maxwell Mejia</h3>
         <p>
           Awkward rich kid. The only reason the main characters originally
           became friends with him was that he could buy things for them, but
           eventually, they began to like him.
         </p>
-        <Header title="Timothy Quintas" />
+        <h3>Timothy Quintas</h3>
         <p>Shelly Quintas’s father.</p>
-        <p>Antagonists/Villains:</p>
-        <Header title="'Egghead'" />
+        <Header title="Antagonists/Villains:" />
+        <h3>Egghead</h3>
         <p>The ghost the protagonists encounter.</p>
       </main>
 

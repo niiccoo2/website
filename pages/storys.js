@@ -36,8 +36,8 @@ export default function Home() {
         <Header title="Scary:" />
         <p style={{ textAlign: 'center' }}>
           <a href="Story-AlgonquinWilderness">A Night in the Algonquin Wilderness</a><br></br>
-          <a href="Story-Phantompeak">Phantompeak</a>
-          <a href="Story-SunnySideUpInsanity">Sunny Side Up Insanity</a>
+          <a href="Story-Phantompeak">Phantompeak</a><br></br>
+          <a href="Story-SunnySideUpInsanity">Sunny Side Up Insanity</a><br></br>
         </p>
       </main>
 
