@@ -72,7 +72,18 @@ export default function Home() {
             </tr>
           </tbody>  
         </table>
-
+        <h2>This is a photo:</h2>
+        <img src="bob.jpeg" width="400" height="300"/>
+        <h2>This is a video:</h2>
+        <video controls width="500">
+          <source src="./file_example_MP4_1280_10MG.webm" type="video/webm" />
+        </video>
+        <h2>This is some audio:</h2>
+        <figure>
+          <audio controls src="./file_example_MP3_1MG.mp3">
+            <a href="./file_example_MP3_1MG.mp3"> Download audio </a>
+          </audio>
+        </figure>
       </main>
 
        <Footer />
