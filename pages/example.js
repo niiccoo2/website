@@ -16,10 +16,12 @@ const styles = {
     paddingTop: '0px', // Adjust the top padding here
     paddingBottom: '50px',
   },
-  //td: {
-  //    text-align: 'center', 
-  //    vertical-align: 'middle',
-  //},
+  td: {
+    textAlign: 'center', // Center the text horizontally NOT WORKING
+    verticalAlign: 'middle', // Center the content vertically
+    border: '1px solid black', // Add border to the table cells
+    padding: '8px', // Add padding to the table cells
+  },
 };
 
 export default function Home() {
