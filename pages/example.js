@@ -38,6 +38,7 @@ export default function Home() {
           Some HTML examples!<br></br>
           This is a paragraph!
         </p>
+        
         <h1>Huge Header</h1>
         <h2>Big Header</h2>
         <h3>Medium Header</h3>
@@ -75,7 +76,7 @@ export default function Home() {
         <h2>This is a photo:</h2>
         <img src="bob.jpeg" width="400" height="300"/>
         <h2>This is a video:</h2>
-        <video controls width="500">
+        <video controls width="400">
           <source src="./file_example_MP4_1280_10MG.webm" type="video/webm" />
         </video>
         <h2>This is some audio:</h2>
