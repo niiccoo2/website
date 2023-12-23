@@ -38,7 +38,6 @@ export default function Home() {
           Some HTML examples!<br></br>
           This is a paragraph!
         </p>
-        
         <h1>Huge Header</h1>
         <h2>Big Header</h2>
         <h3>Medium Header</h3>
@@ -80,11 +79,12 @@ export default function Home() {
           <source src="./file_example_MP4_1280_10MG.webm" type="video/webm" />
         </video>
         <h2>This is some audio:</h2>
-        <figure>
-          <audio controls src="./file_example_MP3_1MG.mp3">
-            <a href="./file_example_MP3_1MG.mp3"> Download audio </a>
-          </audio>
-        </figure>
+        <audio controls src="./file_example_MP3_1MG.mp3">
+          <a href="./file_example_MP3_1MG.mp3"> Download audio </a>
+        </audio>
+        <h2>These are different symbols:</h2>
+        <p>'and' symbol:</p>
+        <code>&‎amp;</code>
       </main>
 
        <Footer />
