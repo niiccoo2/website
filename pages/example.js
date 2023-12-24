@@ -105,6 +105,9 @@ export default function Home() {
             <label>Message: <input type="text" name="message" /></label>
           </p>
           <p>
+            <input type="hidden" name="form-name" value="contact" />
+          </p>
+          <p>
             <button type="submit">Send</button>
           </p>
         </form>
