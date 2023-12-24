@@ -78,13 +78,37 @@ export default function Home() {
         <video controls width="400">
           <source src="./file_example_MP4_1280_10MG.webm" type="video/webm" />
         </video>
+        <h2>This is a Youtube video:</h2>
+        <iframe width="425" height="240" src="https://www.youtube.com/embed/qxS-uuokt5g" title="Everything New In BeamNG Drive 0.31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         <h2>This is some audio:</h2>
         <audio controls src="./file_example_MP3_1MG.mp3">
           <a href="./file_example_MP3_1MG.mp3"> Download audio </a>
         </audio>
         <h2>These are different symbols:</h2>
-        <p>'and' symbol:</p>
+        <p>'&amp;' symbol:</p>
         <code>&‎amp;</code>
+        <h2>This is some code:</h2>
+        <code>
+          num=input("What number?")<br></br>
+          num=num+5<br></br>
+          print(num)
+        </code>
+        <h2>This is a form:</h2>
+        <form name="Contact" netlify>
+          <p>
+            <label>Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <input type="text" name="message" /></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+
       </main>
 
        <Footer />
