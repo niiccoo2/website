@@ -42,6 +42,25 @@ export default function Home() {
         <p className="description">
           Me, Myself, and I are good friends!
         </p>
+        <p>Contact:</p>
+        <form name="email" method="POST" data-netlify="true">
+          <p>
+            <label>Name: <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email: <input type="email" name="email" /></label>
+          </p>
+          <p>
+            <label>Message: <input type="text" name="message" /></label>
+          </p>
+          <p>
+            <input type="hidden" name="form-name" value="email" />
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
+
         <Header title="Photos:" />
         <p className="description">
           <img src="photo.JPG" width="400" height="266"/>
