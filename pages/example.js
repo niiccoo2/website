@@ -94,7 +94,7 @@ export default function Home() {
           print(num)
         </code>
         <h2>This is a form:</h2>
-        <form name="Contact" netlify>
+        <form name="Contact" method="POST" data-netlify="true">
           <p>
             <label>Name: <input type="text" name="name" /></label>
           </p>
