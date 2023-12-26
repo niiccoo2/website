@@ -34,6 +34,7 @@ export default function Home() {
         <Header title="Projects:" />
         <p style={{ textAlign: 'center' }}>
           <a href="better">Which is better?</a><br></br>
+          <a href="start">Start Page</a><br></br>
           <a href="example">Examples</a><br></br>
           <a href="storys">Storys</a><br></br>
           <a href="ndx">NDX</a><br></br>
@@ -41,6 +42,10 @@ export default function Home() {
         <Header title="About:" />
         <p className="description">
           Me, Myself, and I are good friends!
+        </p>
+        <h2>Want a link shortened?</h2>
+        <p style={{ textAlign: 'center' }}>
+          Use the form below to tell me the link you want shortened and what you want the shortened link to be! (go.nic0.win/anythingyouwant)
         </p>
         <p>Contact:</p>
         <form name="email" method="POST" data-netlify="true">
