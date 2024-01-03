@@ -22,6 +22,11 @@ const styles = {
     border: '1px solid black', // Add border to the table cells
     padding: '8px', // Add padding to the table cells
   },
+  blue: {
+    textAlign: 'center',
+    color: 'blue',
+    font
+  },
 };
 
 export default function Home() {
@@ -111,9 +116,9 @@ export default function Home() {
             <button type="submit">Send</button>
           </p>
         </form>
-
+        <h2>This is color text:</h2>
+        <p style={styles.blue}>This is blue text using styles.</p>
       </main>
-
        <Footer />
     </div>
   )
