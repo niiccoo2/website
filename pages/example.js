@@ -22,6 +22,10 @@ const styles = {
     border: '1px solid black', // Add border to the table cells
     padding: '8px', // Add padding to the table cells
   },
+  blue: {
+    textAlign: 'center',
+    color: 'blue'
+  },
 };
 
 export default function Home() {
@@ -110,6 +114,8 @@ export default function Home() {
           <p>
             <button type="submit">Send</button>
           </p>
+          <h2 style={{ textAlign: 'center' }}>This is color text:</h2>
+          <p style={styles.blue}>Blue!</p>
         </form>
 
       </main>
