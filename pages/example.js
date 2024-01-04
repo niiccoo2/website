@@ -115,7 +115,8 @@ export default function Home() {
             <button type="submit">Send</button>
           </p>
           <h2 style={{ textAlign: 'center' }}>This is color text:</h2>
-          <p style={styles.blue}>Blue!</p>
+          <p style={styles.blue}>Blue using styles.</p>
+          <p style={{color: 'red', textAlign: 'center'}}>Red using styles in the header.</p>
         </form>
 
       </main>
