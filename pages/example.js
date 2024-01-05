@@ -117,6 +117,13 @@ export default function Home() {
           <h2 style={{ textAlign: 'center' }}>This is color text:</h2>
           <p style={styles.blue}>Blue using styles.</p>
           <p style={{color: 'red', textAlign: 'center'}}>Red using styles in the header.</p>
+          <br></br>
+          <p style={{color: 'red', textAlign: 'center'}}>R</p>
+          <p style={{color: 'orange', textAlign: 'center'}}>O</p>
+          <p style={{color: 'yellow', textAlign: 'center'}}>Y</p>
+          <p style={{color: 'green', textAlign: 'center'}}>G</p>
+          <p style={{color: 'blue', textAlign: 'center'}}>B</p>
+          <p style={{color: 'violet', textAlign: 'center'}}>V</p>
         </form>
 
       </main>
