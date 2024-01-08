@@ -25,7 +25,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main style={styles.main}>
+      <main style={styles.left}>
         <Header title="Links:" />
         <p className="description">
           Github: <a href="https://github.com/niiccoo2/" target="_blank" rel="noopener noreferrer">github.com/niiccoo2</a>
@@ -33,11 +33,12 @@ export default function Home() {
         </p>
         <Header title="Projects:" />
         <p style={{ textAlign: 'center' }}>
-          <a href="better">Which is better?</a><br></br>
+          <a href="better">Which is better</a><br></br>
           <a href="start">Start Page</a><br></br>
           <a href="example">Examples</a><br></br>
           <a href="storys">Storys</a><br></br>
           <a href="ndx">NDX</a><br></br>
+          <a href="car">RC Cars</a><br></br>
         </p>
         <Header title="About:" />
         <p className="description">
