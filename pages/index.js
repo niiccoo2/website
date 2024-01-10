@@ -7,13 +7,17 @@ const styles = {
     display: 'grid',
     gridTemplateColumns: '1fr',
     gap: '20px',
-    padding: '20px',
+    padding: '0px',
     maxWidth: '800px',
     margin: '0 auto',
   },
   main: {
     paddingTop: '0px', // Adjust the top padding here
-    paddingBottom: '50px',
+    paddingBottom: '25px',
+  },
+  brown: {
+    textAlign: 'center',
+    color: '#C06227'
   },
 };
 
@@ -26,12 +30,16 @@ export default function Home() {
       </Head>
 
       <main style={styles.left}>
-        <Header title="Links:" />
-        <p className="description">
+        <h1 style={styles.brown}>About:</h1>
+        <p>
+          Me, Myself, and I are good friends!
+        </p>
+        <h1 style={styles.brown}>Links:</h1>
+        <p>
           Github: <a href="https://github.com/niiccoo2/" target="_blank" rel="noopener noreferrer">github.com/niiccoo2</a>
           <br />
         </p>
-        <Header title="Projects:" />
+        <h1 style={styles.brown}>Projects:</h1>
         <p style={{ textAlign: 'center' }}>
           <a href="better">Which is better</a><br></br>
           <a href="start">Start Page</a><br></br>
@@ -40,11 +48,8 @@ export default function Home() {
           <a href="ndx">NDX</a><br></br>
           <a href="car">RC Cars</a><br></br>
         </p>
-        <Header title="About:" />
-        <p className="description">
-          Me, Myself, and I are good friends!
-        </p>
-        <h2>Want a link shortened?</h2>
+        
+        <h2 style={styles.brown}>Want a link shortened?</h2>
         <p style={{ textAlign: 'center' }}>
           Use the form below to tell me the link you want shortened and what you want the shortened link to be! (go.nic0.win/anythingyouwant)
         </p>
@@ -67,7 +72,7 @@ export default function Home() {
           </p>
         </form>
 
-        <Header title="Photos:" />
+        <h1 style={styles.brown}>Photos:</h1>
         <p className="description">
           <img src="photo.JPG" width="400" height="266"/>
         </p>
