@@ -125,6 +125,7 @@ export default function Home() {
           <p style={{color: 'blue', textAlign: 'center'}}>B</p>
           <p style={{color: 'violet', textAlign: 'center'}}>V</p>
         </form>
+        
 
       </main>
 
