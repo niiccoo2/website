@@ -31,9 +31,11 @@ export default function Home() {
         <p className="description">
           RC cars are fun because you can have all sorts of diffrent cars and trucks with diffrent sizes, you can also upgrade your car or truck and add things like FPV cams and GoPro's to your car or truck.
         </p>
+        <h2>Maintenance:</h2>
         <p>
-          The best part is all the diffrent types of cars and trucks you can get, for example:
+        If you own a RC car you will have to do mainteance on it every now and then. You will have to clean the car and make sure it is in good condition. Different types of cars have different maintenance needs. For example, a car that stays on the road will not need to be cleaned as much as a car that is in muddy conditions.
         </p>
+        <h3>Types of cars:</h3>
         <ul style={{textAlign: 'left'}}>
           <li>Race cars</li>
           <li>Crawlers</li>
