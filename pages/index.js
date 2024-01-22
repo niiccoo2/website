@@ -46,6 +46,10 @@ export default function Home() {
           <a href="cats">Cats</a><br></br>
           <a href="eamon">Eamon</a><br></br>
         </p>
+        <h1>Other peoples projects:</h1>
+        <p style={{ textAlign: 'center' }}>
+          <a href="soon">Payday</a><br></br>
+        </p>
         
         <h2>Want a link shortened?</h2>
         <p style={{ textAlign: 'center' }}>
