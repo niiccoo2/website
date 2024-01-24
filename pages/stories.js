@@ -26,9 +26,9 @@ export default function Home() {
       </Head>
 
       <main style={styles.main}>
-        <Header title="Storys" />
+        <Header title="Stories" />
         <p className="description">
-          These are some short storys sorted by type!
+          These are some short stories sorted by type!
         </p>
         <p>
           To contact the author of a story email <a href="mailto:contact@nic0.win">contact@nic0.win</a> with the subject as the title of the story that your message is about.

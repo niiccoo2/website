@@ -1,7 +1,17 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import { Pacifico } from 'next/font/google'
+import { Nabla } from 'next/font/google'
 
+const paci = Pacifico({
+  weight: '400',
+  subsets: ['latin'],
+})
+
+const nabla = Nabla({
+  subsets: ['latin'],
+})
 
 const styles = {
   container: {
@@ -27,7 +37,6 @@ const styles = {
     color: 'blue'
   },
 };
-
 export default function Home() {
   return (
     <div className="container" style={styles.container}>
@@ -125,7 +134,8 @@ export default function Home() {
           <p style={{color: 'blue', textAlign: 'center'}}>B</p>
           <p style={{color: 'violet', textAlign: 'center'}}>V</p>
         </form>
-        
+        <h2 className={nabla.className}>These are diffrent fonts:</h2>
+        <p className={paci.className} style={{color: 'Green', textAlign: 'center', }}>Test!!!!</p>
 
       </main>
 

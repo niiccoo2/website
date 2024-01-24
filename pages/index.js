@@ -1,6 +1,11 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import { Nabla } from 'next/font/google'
+
+const nabla = Nabla({
+  subsets: ['latin'],
+})
 
 const styles = {
   container: {
@@ -24,8 +29,9 @@ export default function Home() {
         <title>Nicos Website!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <main style={styles.left}>
+        <h1 className={nabla.className}>NICO'S  WEBSITE!</h1>
         <h1>About:</h1>
         <p>
           Me, Myself, and I are good friends!
@@ -40,7 +46,7 @@ export default function Home() {
           <a href="better">Which is better</a><br></br>
           <a href="start">Start Page</a><br></br>
           <a href="example">Examples</a><br></br>
-          <a href="storys">Storys</a><br></br>
+          <a href="stories">Stories</a><br></br>
           <a href="ndx">NDX</a><br></br>
           <a href="car">RC Cars</a><br></br>
           <a href="cats">Cats</a><br></br>
