@@ -3,6 +3,7 @@ import Header from '@components/Header'
 import Footer from '@components/Footer'
 import { Pacifico } from 'next/font/google'
 import { Nabla } from 'next/font/google'
+import { Orbitron } from 'next/font/google'
 
 const paci = Pacifico({
   weight: '400',
@@ -10,6 +11,10 @@ const paci = Pacifico({
 })
 
 const nabla = Nabla({
+  subsets: ['latin'],
+})
+
+const orbitron = Orbitron({
   subsets: ['latin'],
 })
 
@@ -37,6 +42,7 @@ const styles = {
     color: 'blue'
   },
 };
+
 export default function Home() {
   return (
     <div className="container" style={styles.container}>
@@ -136,6 +142,7 @@ export default function Home() {
         </form>
         <h2 className={nabla.className}>These are diffrent fonts:</h2>
         <p className={paci.className} style={{color: 'Green', textAlign: 'center', }}>Test!!!!</p>
+        <p className={orbitron.className}>This is me testing the font!</p>
 
       </main>
 
