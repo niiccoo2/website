@@ -43,15 +43,9 @@ export default function Home() {
         </p>
         <h1>Projects:</h1>
         <p style={{ textAlign: 'center' }}>
-          <a href="better">Which is better</a><br></br>
-          <a href="start">Start Page</a><br></br>
           <a href="example">Examples</a><br></br>
-          <a href="stories">Stories</a><br></br>
-          <a href="ndx">NDX</a><br></br>
-          <a href="car">RC Cars</a><br></br>
-          <a href="cats">Cats</a><br></br>
-          <a href="eamon">Eamon</a><br></br>
-          <a href="catania-magazine">Magazine</a><br></br>
+          <a href="italian">Italian</a><br></br>
+          <a href="other">Other Projects</a><br></br>
         </p>
         <h1>Other peoples projects:</h1>
         <p style={{ textAlign: 'center' }}>
