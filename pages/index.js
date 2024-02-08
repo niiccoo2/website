@@ -45,6 +45,7 @@ export default function Home() {
         <p style={{ textAlign: 'center' }}>
           <a href="example">Examples</a><br></br>
           <a href="italian">Italian</a><br></br>
+          <a href="stories">Books</a><br></br>
           <a href="other">Other Projects</a><br></br>
         </p>
         <h1>Other peoples projects:</h1>

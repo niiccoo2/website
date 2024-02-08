@@ -21,22 +21,24 @@ export default function Home() {
   return (
     <div className="container" style={styles.container}>
       <Head>
-        <title>New Tab</title>
+        <title>Storys</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main style={styles.main}>
-      <form method="GET" action="https://www.google.com/search">
-        <input name="q" type="text"></input>&nbsp;
-        <input type="submit" value="Search"></input>
-      </form>
+        <Header title="Stories" />
         <p className="description">
-          <a href="https://github.com/niiccoo2/">Github</a>
-          &nbsp;<a href="https://classroom.google.com/">Classroom</a>
-          &nbsp;<a href="https://calendar.google.com/calendar/u/1/r">Calendar</a>
-          &nbsp;<a href="https://vclock.com/timer/">Timer</a>
+          These are some short stories sorted by type!
         </p>
-        
+        <p>
+          To contact the author of a story email <a href="mailto:contact@nic0.win">contact@nic0.win</a> with the subject as the title of the story that your message is about.
+        </p>
+        <Header title="Scary:" />
+        <p style={{ textAlign: 'center' }}>
+          <a href="story/Story-AlgonquinWilderness">A Night in the Algonquin Wilderness</a><br></br>
+          <a href="story/Story-Phantompeak">Phantompeak</a><br></br>
+          <a href="story/Story-SunnySideUpInsanity">Sunny Side Up Insanity</a><br></br>
+        </p>
       </main>
 
        <Footer />

@@ -31,7 +31,7 @@ export default function Home() {
         <a href="other/cats">Cats</a><br></br>
         <a href="other/car">RC Cars</a><br></br>
         <a href="other/ndx">NDX</a><br></br>
-        <a href="other/stories">Stories</a><br></br>
+        <a href="stories">Stories</a><br></br>
         <a href="other/better">Which is better</a><br></br>
         
       </main>
