@@ -28,7 +28,7 @@ export default function Home() {
 
       <main style={styles.main}>
         <h1>Catania Magazine</h1>
-        <p>Ciao, Io sono Nico, ti racconterò del mio viaggio. <br></br><br></br> Il lunedi mattina io faccio shoping al Euro Store, dopo io visito il Castello Ursino e faccio foto. Il pomeriggio io bevo il caffè al Bar Trento e guardo il film mario al Cinema King. La sera io dormo al NH Catania Centro.</p>
+        <p>Ciao, Io sono Nico, ti racconterò del mio viaggio. <br></br><br></br> Il lunedi mattina io faccio shopping al Euro Store, dopo io visito il Castello Ursino e faccio foto. Il pomeriggio io bevo il caffè al Bar Trento e guardo il film mario al Cinema King. La sera io dormo al NH Catania Centro.</p>
         <img src="https://lh5.googleusercontent.com/p/AF1QipM_xXxT2fp-8EsKOXaUTV8pE7uCWUPgRWIA4oMX=w408-h419-k-no" width="400" height="300"/>
         <p>Il martedi mattina io visito Porta Garibaldi, dopo io vado in bici al Teatro romano. Il pomeriggio io mangio un calzone al A Putia Dell'Ostello e prendo l’autobus al Museo Storico dello Sbarco in Sicilia 1943. La sera io visito Monumento a Giovanni Formisano.
 </p>
