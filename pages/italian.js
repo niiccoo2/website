@@ -22,7 +22,7 @@ export default function Home() {
     <div className="container" style={styles.container}>
       <Head>
         <title>Italan</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/italy.ico" />
       </Head>
 
       <main style={styles.main}>

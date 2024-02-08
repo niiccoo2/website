@@ -33,6 +33,7 @@ export default function Home() {
         <a href="other/ndx">NDX</a><br></br>
         <a href="other/stories">Stories</a><br></br>
         <a href="other/better">Which is better</a><br></br>
+        
       </main>
 
        <Footer />
