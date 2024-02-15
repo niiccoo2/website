@@ -31,6 +31,7 @@ export default function Home() {
       </Head>
       
       <main style={styles.left}>
+        <h1>NEW INDEX PAGE COMING SOON™</h1>
         <h1 className={nabla.className}>NICO'S  WEBSITE!</h1>
         <h1>About:</h1>
         <p>
@@ -50,7 +51,7 @@ export default function Home() {
         </p>
         <h1>Other peoples projects:</h1>
         <p style={{ textAlign: 'center' }}>
-          <a href="soon">Payday</a><br></br>
+          <a href="other/sorensthing.html">Payday</a><br></br>
         </p>
         
         <h2>Want a link shortened?</h2>
