@@ -19,6 +19,7 @@ const styles = {
   main: {
     paddingTop: '0px', // Adjust the top padding here
     paddingBottom: '25px',
+    backgroundImage: 'url(backround.jpg)',
   },
 };
 
@@ -30,7 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       
-      <main style={styles.left}>
+      <main style={styles.main}>
         <h1>NEW INDEX PAGE COMING SOON™</h1>
         <h1 className={nabla.className}>NICO'S  WEBSITE!</h1>
         <h1>About:</h1>
