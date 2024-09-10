@@ -58,42 +58,6 @@ export default function Home() {
           <a href="other">Other Projects</a>
           <br></br>
         </p>
-        <h1>Other peoples projects:</h1>
-        <p style={{ textAlign: "center" }}>
-          <a href="other/sorensthing.html">Payday</a>
-          <br></br>
-        </p>
-
-        <p>Contact:</p>
-        <form
-          name="email"
-          method="POST"
-          data-netlify="true"
-          data-netlify-recaptcha="true"
-        >
-          <p>
-            <label>
-              Name: <input type="text" name="name" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Email: <input type="email" name="email" />
-            </label>
-          </p>
-          <p>
-            <label>
-              Message: <input type="text" name="message" />
-            </label>
-          </p>
-          <p>
-            <input type="hidden" name="form-name" value="email" />
-          </p>
-          <div data-netlify-recaptcha="true"></div>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-        </form>
 
         <h1>Photos:</h1>
         <p className="description">
