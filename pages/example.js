@@ -1,45 +1,45 @@
-import Head from 'next/head'
-import Header from '@components/Header'
-import Footer from '@components/Footer'
-import { Pacifico } from 'next/font/google'
-import { Nabla } from 'next/font/google'
-import { Orbitron } from 'next/font/google'
+import Head from "next/head";
+import Header from "@components/Header";
+import Footer from "@components/Footer";
+import { Pacifico } from "next/font/google";
+import { Nabla } from "next/font/google";
+import { Orbitron } from "next/font/google";
 
 const paci = Pacifico({
-  weight: '400',
-  subsets: ['latin'],
-})
+  weight: "400",
+  subsets: ["latin"],
+});
 
 const nabla = Nabla({
-  subsets: ['latin'],
-})
+  subsets: ["latin"],
+});
 
 const orbitron = Orbitron({
-  subsets: ['latin'],
-})
+  subsets: ["latin"],
+});
 
 const styles = {
   container: {
-    display: 'grid',
-    gridTemplateColumns: '1fr',
-    gap: '20px',
-    padding: '20px',
-    maxWidth: '800px',
-    margin: '0 auto',
+    display: "grid",
+    gridTemplateColumns: "1fr",
+    gap: "20px",
+    padding: "20px",
+    maxWidth: "800px",
+    margin: "0 auto",
   },
   main: {
-    paddingTop: '0px', // Adjust the top padding here
-    paddingBottom: '50px',
+    paddingTop: "0px", // Adjust the top padding here
+    paddingBottom: "50px",
   },
   td: {
-    textAlign: 'center', // Center the text horizontally NOT WORKING
-    verticalAlign: 'middle', // Center the content vertically
-    border: '1px solid black', // Add border to the table cells
-    padding: '8px', // Add padding to the table cells
+    textAlign: "center", // Center the text horizontally NOT WORKING
+    verticalAlign: "middle", // Center the content vertically
+    border: "1px solid black", // Add border to the table cells
+    padding: "8px", // Add padding to the table cells
   },
   blue: {
-    textAlign: 'center',
-    color: 'blue'
+    textAlign: "center",
+    color: "blue",
   },
 };
 
@@ -53,7 +53,7 @@ export default function Home() {
 
       <main style={styles.main}>
         <Header title="Examples:" />
-        <p style={{ textAlign: 'center' }}>
+        <p style={{ textAlign: "center" }}>
           Some HTML examples!<br></br>
           This is a paragraph!
         </p>
@@ -81,24 +81,38 @@ export default function Home() {
         <table border="1">
           <tbody>
             <tr>
-            <th></th><th>USA</th><th>UK</th>
+              <th></th>
+              <th>USA</th>
+              <th>UK</th>
             </tr>
             <tr>
-            <th>Road Side</th><td>Right Side</td><td>Left Side</td>
+              <th>Road Side</th>
+              <td>Right Side</td>
+              <td>Left Side</td>
             </tr>
             <tr>
-            <th>Units</th><td>MPH</td><td>KPH</td>
+              <th>Units</th>
+              <td>MPH</td>
+              <td>KPH</td>
             </tr>
-          </tbody>  
+          </tbody>
         </table>
         <h2>This is a photo:</h2>
-        <img src="bob.jpeg" width="400" height="300"/>
+        <img src="bob.jpeg" width="400" height="300" />
         <h2>This is a video:</h2>
         <video controls width="400">
           <source src="./file_example_MP4_1280_10MG.webm" type="video/webm" />
         </video>
         <h2>This is a Youtube video:</h2>
-        <iframe width="425" height="240" src="https://www.youtube.com/embed/qxS-uuokt5g" title="Everything New In BeamNG Drive 0.31" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe
+          width="425"
+          height="240"
+          src="https://www.youtube.com/embed/qxS-uuokt5g"
+          title="Everything New In BeamNG Drive 0.31"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
         <h2>This is some audio:</h2>
         <audio controls src="./file_example_MP3_1MG.mp3">
           <a href="./file_example_MP3_1MG.mp3"> Download audio </a>
@@ -113,40 +127,29 @@ export default function Home() {
           print(num)
         </code>
         <h2>This is a form:</h2>
-        <form name="contact" method="POST" data-netlify="true">
-          <p>
-            <label>Name: <input type="text" name="name" /></label>
-          </p>
-          <p>
-            <label>Email: <input type="email" name="email" /></label>
-          </p>
-          <p>
-            <label>Message: <input type="text" name="message" /></label>
-          </p>
-          <p>
-            <input type="hidden" name="form-name" value="contact" />
-          </p>
-          <p>
-            <button type="submit">Send</button>
-          </p>
-          <h2 style={{ textAlign: 'center' }}>This is color text:</h2>
-          <p style={styles.blue}>Blue using styles.</p>
-          <p style={{color: 'red', textAlign: 'center'}}>Red using styles in the header.</p>
-          <br></br>
-          <p style={{color: 'red', textAlign: 'center'}}>R</p>
-          <p style={{color: 'orange', textAlign: 'center'}}>O</p>
-          <p style={{color: 'yellow', textAlign: 'center'}}>Y</p>
-          <p style={{color: 'green', textAlign: 'center'}}>G</p>
-          <p style={{color: 'blue', textAlign: 'center'}}>B</p>
-          <p style={{color: 'violet', textAlign: 'center'}}>V</p>
-        </form>
+        <h2 style={{ textAlign: "center" }}>This is color text:</h2>
+        <p style={styles.blue}>Blue using styles.</p>
+        <p style={{ color: "red", textAlign: "center" }}>
+          Red using styles in the header.
+        </p>
+        <br></br>
+        <p style={{ color: "red", textAlign: "center" }}>R</p>
+        <p style={{ color: "orange", textAlign: "center" }}>O</p>
+        <p style={{ color: "yellow", textAlign: "center" }}>Y</p>
+        <p style={{ color: "green", textAlign: "center" }}>G</p>
+        <p style={{ color: "blue", textAlign: "center" }}>B</p>
+        <p style={{ color: "violet", textAlign: "center" }}>V</p>
         <h2 className={nabla.className}>These are diffrent fonts:</h2>
-        <p className={paci.className} style={{color: 'Green', textAlign: 'center', }}>Test!!!!</p>
+        <p
+          className={paci.className}
+          style={{ color: "Green", textAlign: "center" }}
+        >
+          Test!!!!
+        </p>
         <p className={orbitron.className}>This is me testing the font!</p>
-
       </main>
 
-       <Footer />
+      <Footer />
     </div>
-  )
+  );
 }
