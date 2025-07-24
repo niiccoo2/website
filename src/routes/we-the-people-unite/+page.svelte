@@ -1,6 +1,9 @@
 <div class="bg-blue-600 text-white px-4 md:px-10 min-h-screen flex flex-col">
+    <header class="text-left mt-10 mb-5 flex justify-left bg-blue-600 text-white">
+        <a class="text-2xl font-bold" href="/">niiccoo2.xyz</a>
+    </header>
     <div class="flex-1">
-        <h1 class="text-center text-2xl mt-10">We The People Unite</h1>
+        <h1 class="text-center text-2xl font-bold">We The People Unite</h1> <!-- mt-10 means margin top 10-->
         <br>
         <p class="text-left">In times of challenge, it is not our differences that define us, but our shared commitment to one another. No matter our background, beliefs, or who we support, we are strongest when we come together for the common good. Unity, compassion, and cooperation are the foundations of a better future.</p>
         <br>
