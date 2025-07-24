@@ -1,4 +1,4 @@
-<div class="bg-blue-600 text-white px-4 md:px-8 min-h-screen flex flex-col">
+<div class="bg-blue-600 text-white px-4 md:px-10 min-h-screen flex flex-col">
     <header class="text-left mt-10 mb-5 flex justify-left bg-blue-600 text-white">
         <a class="text-2xl font-bold" href="/">niiccoo2.xyz</a>
     </header>
