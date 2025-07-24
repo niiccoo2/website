@@ -1,11 +1,7 @@
 <script lang="ts">
-	import '../app.css';
-	import { inject } from '@vercel/analytics';
-import { onMount } from 'svelte';
+    import '../app.css';
 
-onMount(() => {
-	inject();
-});
+    let { children } = $props();
 </script>
 
-<slot />
+{@render children()}

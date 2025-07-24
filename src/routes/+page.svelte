@@ -20,7 +20,7 @@
             </button>
         </div>
     </div>
-    <footer class="text-center p-10 bg-blue-600 text-white">
-    Made with <span class="hover:animate-bounce">❤️</span> by Nico
+    <footer class="text-center p-10 flex justify-center bg-blue-600 text-white">
+        Made with <span class="hover:animate-bounce">❤️</span> by Nico
     </footer>
 </div>
