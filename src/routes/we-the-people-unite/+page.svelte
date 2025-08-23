@@ -14,7 +14,7 @@
                 <a href="https://github.com/niiccoo2/We-The-People/">Github (Code)</a>
             </button>
             <button class="bg-white text-blue-600 font-bold p-4 rounded hover:scale-105">
-                <a href="https://photos.niiccoo2.xyz/share/ESwZD4Z7EnCDFlKrhO-xNTaDU5Q1B48rzCu0KGxKcLCwNLGHf0mgPwmt5CE1P3htN4c">More Photos</a>
+                <a href="https://photos.niiccoo2.xyz/s/we-the-people">More Photos</a>
             </button>
         </div>
         <div class="flex justify-center p-8 gap-x-8 sm:gap-x-2 md:gap-x-4 lg:gap-x-8 xl:gap-x-16">
