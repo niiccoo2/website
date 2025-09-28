@@ -62,6 +62,8 @@
         <h3 class="text-center text-xl">Projects:</h3>
         <a class="block text-center mx-auto underline" href="/we-the-people-unite">We the People Unite</a>
         <a class="block text-center mx-auto underline" href="https://github.com/niiccoo2/EINK-Phone">E-Ink Phone</a>
+        <a class="block text-center mx-auto underline" href="https://filz.cc">filz.cc</a>
+        <a class="block text-center mx-auto underline" href="https://weighly.app">weighly.app</a>
         <br>
         <!-- DISCORD THING IS BELOW -->
         <!-- <a href="https://discord.com/users/777553246213373972" target="_blank" class="block mx-auto text-center underline" rel="noopener">
