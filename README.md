@@ -1,0 +1,1 @@
+This is my personal site. You might (or might not) notice that is website is simply HTML and CSS, that's simply because I don't need anything extra for this site. I'm trying to keep it what it needs to be, not some giant maze that takes all your (very exspensive) memory.
